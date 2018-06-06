@@ -48,14 +48,9 @@ RUTORRENT_CORE_NAME="rutorrent-$RUTORRENT_VERSION.tar.gz"
 RUTORRENT_PLUGINS_NAME="plugins-$RUTORRENT_VERSION.tar.gz"
 RUTORRENT_CORE_URL="https://dl.bintray.com/novik65/generic/$RUTORRENT_CORE_NAME"
 RUTORRENT_PLUGINS_URL="http://dl.bintray.com/novik65/generic/$RUTORRENT_PLUGINS_NAME"
-#RUTORRENT_CORE_URL2="http://sourceforge.net/projects/autodl-irssi/files/inst-files/$RUTORRENT_CORE_NAME/download"
-#RUTORRENT_PLUGINS_URL2="http://sourceforge.net/projects/autodl-irssi/files/inst-files/$RUTORRENT_PLUGINS_NAME/download"
 
 RUTORRENT_PLUGINS=
 
-# These are the ruTorrent plugins that will get installed. To remove one, either
-# remove the whole line or comment it (prepend a '#' to the start of the line).
-# If the line starts with '#', the plugin is not installed.
 RUTORRENT_PLUGINS="$RUTORRENT_PLUGINS _getdir"
 RUTORRENT_PLUGINS="$RUTORRENT_PLUGINS _noty"
 RUTORRENT_PLUGINS="$RUTORRENT_PLUGINS _task"
